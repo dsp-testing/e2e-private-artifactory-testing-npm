@@ -1,0 +1,14 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    registries:
+      - jfrog-artifactory
+
+registries:
+  jfrog-artifactory:
+    type: "npm-registry"
+    url: "https://jfrogghdemo.jfrog.io/artifactory/api/npm/e2e-tests-dependabot-npm/"
+    token: "${{secrets.JFROG_ARTIFACTORY_TOKEN_NPM}}"
