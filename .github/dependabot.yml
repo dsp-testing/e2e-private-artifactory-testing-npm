@@ -13,4 +13,3 @@ registries:
     url: "https://jfrogghdemo.jfrog.io/artifactory/api/npm/e2e-tests-dependabot-npm/"
     token: "${{secrets.JFROG_ARTIFACTORY_TOKEN_NPM}}"
     replaces-base: true
-
