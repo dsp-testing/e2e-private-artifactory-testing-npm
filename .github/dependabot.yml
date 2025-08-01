@@ -7,10 +7,10 @@ updates:
     registries:
       - jfrog-artifactory
   
-  - package-ecosystem: "npm"
-    directory: "/new_advisory"
-    schedule:
-      interval: "daily"
+  # - package-ecosystem: "npm"
+  #   directory: "/new_advisory"
+  #   schedule:
+  #     interval: "daily"
 
 registries:
   jfrog-artifactory:
