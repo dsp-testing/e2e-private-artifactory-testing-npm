@@ -1,6 +1,5 @@
 {
     "dependencies": {
-        "lodash": "4.17.1",
         "tar": "4.4.1"
     }
 }
